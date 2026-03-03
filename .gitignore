@@ -1,0 +1,67 @@
+# 환경 변수 (토큰 포함)
+.env
+
+# Python 캐시
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 작업 잠금 파일
+working.json
+*.lock
+*.pid
+new_instructions.json
+
+# Proactive Agent 추적 파일
+proactive_alerts.json
+user_spaces.json
+uuid_name_map.json
+
+# 메시지 데이터
+telegram_messages.json
+gchat_messages.json
+
+# Google Cloud 인증
+service-account-key.json
+*-credentials.json
+assistant-jh-*.json
+
+# 테스트 결과 (임시)
+_test_*.py
+_test_*.txt
+_test_*.json
+
+# ChromaDB 로컬 데이터
+chroma_db/
+
+# 작업 메모리 폴더 (로컬 데이터)
+tasks/
+
+# 로그 파일
+claude_task.log
+*.log
+
+# AI 도구 설정 (로컬)
+.claude/
+.codex/
+
+# IDE 설정
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 런타임 데이터
+agent_episodes.json
+
+# 백업 파일
+*.bak
+
+# Windows 아티팩트
+NUL
+
+# OS 파일
+.DS_Store
+Thumbs.db

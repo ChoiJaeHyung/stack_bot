@@ -1,0 +1,28 @@
+# 비서최재형 (mybot_ver2) Python 의존성 패키지
+
+# Google Chat Bot (Pub/Sub 수신)
+google-cloud-pubsub>=2.23.0
+
+# Google Chat API (메시지 발신)
+google-api-python-client>=2.0.0
+google-auth>=2.0.0
+
+# Google Drive API (파일 전송용)
+google-auth-httplib2>=0.2.0
+google-auth-oauthlib>=1.2.0
+
+# 환경 변수 관리 (.env 파일)
+python-dotenv==1.1.1
+
+# OpenAI API (bot_brain.py에서 사용)
+openai>=1.0.0
+
+# HTTP 요청 (선택적 - 웹 검색 등에 사용)
+requests==2.32.3
+
+# LangGraph Agent (agent/ 패키지)
+langgraph>=0.2.0
+langchain-core>=0.3.0
+
+# 벡터 메모리 (agent/memory/)
+chromadb>=0.5.0
